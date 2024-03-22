@@ -76,7 +76,7 @@
                 <option value="District 3">District 3</option>
                 <option value="District 4">District 4</option>
             </select><br></br>
-            <input name="id_person" type="text" placeholder="ID person" required value="">
+            <input name="id_person" type="text" placeholder="ID person" >
             <select class="", name="city" required> <!-- City -->
                 <option value="" selected hidden>City</option>
                 <option value="Caloocan City">Caloocan City</option>
@@ -96,22 +96,23 @@
                 <option value="Taguig City">Taguig City</option>
                 <option value="Valenzuela City">Valenzuela City</option>
             </select>
-            <input name="number_id" type="number" placeholder="Number ID"   required value="">
-            <input name="province" type="text" placeholder="Province" required value="">
+            <input name="number_id" type="number" placeholder="Number ID" >
+            <input name="province" type="text" placeholder="Province">
             <select class="" name="religion" required> <!-- Religion -->
                 <option value="" selected hidden>Religion</option>
                 <option value="Catholic">Catholic</option>
                 <option value="Muslim">Muslim</option>
                 <option value="Inglesia ni Cristo">Inglesia ni Cristo</option>
-            </select><br></br>
-
+            </select>
             <label for="date_of_birth">Date of Birth:</label>
             <input name="date_of_birth" type="date" class="form-control">
-            <input name="work" type="text" placeholder="Work" required value="">
-            <input name="monthly_salary" type="number" placeholder="Monthly Salary" required value="">
-            <input name="cellphone_no" type="number" placeholder="Contact No."  required value="">
-            <input name="work_location" type="text" placeholder="Work of Location." required value="">
-            <input name="section_department" type="text" placeholder="Section Department" required value="">
+            <br></br>
+
+            <input name="work" type="text" placeholder="Work">
+            <input name="monthly_salary" type="number" placeholder="Monthly Salary">
+            <input name="cellphone_no" type="number" placeholder="Contact No."  required value="Dont Include 0">
+            <input name="work_location" type="text" placeholder="Work of Location." >
+            <input name="section_department" type="text" placeholder="Section Department" >
             <input name="condition_of_health" type="text" placeholder="Condition of Health" required value="">
             <br></br>
             <div>
@@ -119,7 +120,7 @@
                 <input name="benepisyaro_ng_4Ps" type="checkbox" option value="Benepisyaro ng 4Ps">Benepisyaro ng 4Ps</option>
                 <input name="Katutubo_(Grupo)" type="checkbox" option value="Katutubo/Grupo">Katutubo/Grupo</option>
                 <input name="Others" type="checkbox" option value="Others">Others</option>
-                <br></br>
+                </br>
               
             </div>
 

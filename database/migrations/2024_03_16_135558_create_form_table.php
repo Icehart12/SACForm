@@ -25,11 +25,11 @@ return new class extends Migration
             $table->string('province');
             $table->string('religion');
             $table->string('date_of_birth');
-            $table->string('work');
+            $table->string('work',128)->nullable();
             $table->decimal('monthly_salary');
-            $table->integer('cellphone_no');
-            $table->string('work_location');
-            $table->string('section_department');
+            $table->string('cellphone_no');
+            $table->string('work_location',128)->nullable();
+            $table->string('section_department',128)->nullable();
             $table->string('condition_of_health');
             $table->string('benepisyaryo_ng_UCT',128)->nullable();
             $table->string('benepisyaro_ng_4Ps',128)->nullable();
